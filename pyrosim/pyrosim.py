@@ -79,6 +79,7 @@ def Prepare_Link_Dictionary(bodyID):
         linkName = jointName[1]
 
         linkNamesToIndices[linkName] = jointIndex
+        print(linkName)
 
         if jointIndex==0:
 
